@@ -3,6 +3,8 @@ import "../../styles/globals.css";
 import { useState, useRef } from "react";
 import NavLink from "../../components/NavLink";
 import avatar from "../../public/avatar.jpg";
+import tarcologo from "../../public/tarcoair.png";
+
 import {
   HomeIcon,
   AdjustmentsHorizontalIcon,
@@ -430,12 +432,18 @@ export default function RootLayout({
                         />
                       </svg>
                     </span>
-                    <a
-                      href="index.html"
-                      className="inline-block text-2xl pl-3 font-bold tracking-wider uppercase text-primary-dark dark:text-light"
+                    <Link
+                      href="/dashboard/home"
+                      className="text-2xl pl-3 font-bold tracking-wider uppercase text-primary-dark dark:text-light"
                     >
-                      Tarco
-                    </a>
+                      <Image
+                        src={tarcologo}
+                        width={100}
+                        height={60}
+                        alt="logo"
+                        className="mb-5"
+                      />
+                    </Link>
                   </div>
 
                   {/* <!-- Mobile sub menu button --> */}

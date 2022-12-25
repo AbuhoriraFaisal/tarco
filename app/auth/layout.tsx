@@ -87,13 +87,22 @@ export default function RootLayout({
               <BounceLoader size={50} color="#8b8d8d" speedMultiplier={3} />
             </div>
           )}
-          <div className="flex flex-col items-center justify-center min-h-screen p-4 space-y-4 antialiased text-gray-900 bg-gray-100 dark:bg-dark dark:text-light">
+          {/* <div className="flex flex-col items-center justify-center min-h-screen p-4 space-y-4 antialiased text-gray-900 bg-gray-100 dark:bg-dark dark:text-light" style={{ */}
+          <div
+            className="flex flex-col items-center justify-center min-h-screen p-4 space-y-4 antialiased"
+            style={{
+              background:
+                "url('https://cdn.jetphotos.com/full/6/99113_1582968827.jpg')",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          >
             {/* <!-- Brand --> */}
             <a
               href="../index.html"
               className="inline-block mb-6 text-3xl font-bold tracking-wider uppercase text-primary-dark dark:text-light"
             >
-              TARCO
+              TARCO Aviation
             </a>
             <main>{children}</main>
           </div>
