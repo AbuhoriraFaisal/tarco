@@ -72,8 +72,8 @@ const Manage = () => {
                         ></div>
                       </div>
                       <div>
-                        <p className="font-semibold text-black">Sufyan</p>
-                        <p className="text-xs text-gray-600">Captin</p>
+                        <p className="font-semibold text-black">Ayman khairy</p>
+                        <p className="text-xs text-gray-600">SENIOR</p>
                       </div>
                     </div>
                   </td>
@@ -108,8 +108,8 @@ const Manage = () => {
                         ></div>
                       </div>
                       <div>
-                        <p className="font-semibold text-black">Sufyan</p>
-                        <p className="text-xs text-gray-600">Captin</p>
+                        <p className="font-semibold text-black">Saad Hassan</p>
+                        <p className="text-xs text-gray-600">JUNIOR</p>
                       </div>
                     </div>
                   </td>
@@ -144,8 +144,8 @@ const Manage = () => {
                         ></div>
                       </div>
                       <div>
-                        <p className="font-semibold text-black">Sufyan</p>
-                        <p className="text-xs text-gray-600">Captin</p>
+                        <p className="font-semibold text-black">Khaled Omer</p>
+                        <p className="text-xs text-gray-600">TRAINEE</p>
                       </div>
                     </div>
                   </td>
@@ -180,8 +180,8 @@ const Manage = () => {
                         ></div>
                       </div>
                       <div>
-                        <p className="font-semibold text-black">Sufyan</p>
-                        <p className="text-xs text-gray-600">Captin</p>
+                        <p className="font-semibold text-black">Ahmed Ali</p>
+                        <p className="text-xs text-gray-600">JUNIOR</p>
                       </div>
                     </div>
                   </td>
@@ -216,8 +216,8 @@ const Manage = () => {
                         ></div>
                       </div>
                       <div>
-                        <p className="font-semibold text-black">Sufyan</p>
-                        <p className="text-xs text-gray-600">Captin</p>
+                        <p className="font-semibold text-black">Yasir Makki</p>
+                        <p className="text-xs text-gray-600">SENIOR</p>
                       </div>
                     </div>
                   </td>
