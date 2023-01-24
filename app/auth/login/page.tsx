@@ -1,19 +1,24 @@
 "use client";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { FormEvent } from "react";
+import { FormEvent, useState } from "react";
+import SubmitButton from "../../../components/SubmitButton";
 
 const login = () => {
   const router = useRouter();
-
-  const handleSubmit = (e: FormEvent<HTMLButtonElement>) => {
+  const [loading, setLoading] = useState(false);
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    router.push("/dashboard/home/");
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+      router.push("/dashboard/home/");
+    }, 3000);
   };
   return (
     <div className="w-full max-w-sm px-4 py-6 space-y-6 bg-white rounded-md dark:bg-darker">
       <h1 className="text-xl font-semibold text-center ">Client Area</h1>
-      <form className="space-y-6">
+      <form className="space-y-6" onSubmit={handleSubmit}>
         <input
           className="w-full px-4 py-2 border rounded-md dark:bg-darker dark:border-gray-700 focus:outline-none focus:ring focus:ring-primary-100 dark:focus:ring-primary-darker"
           type="email"
@@ -52,13 +57,34 @@ const login = () => {
           </a>
         </div>
         <div>
-          <button
+          {/* <button
             type="submit"
             onClick={handleSubmit}
             className="w-full px-4 py-2 font-medium text-center text-white transition-colors duration-200 rounded-md bg-primary hover:bg-primary-dark focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-1 dark:focus:ring-offset-darker"
           >
             Login
-          </button>
+          </button> */}
+          <SubmitButton
+            title="Login"
+            clicked={loading}
+            loadingTitle="loading..."
+            icon={
+              <svg
+                className="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"
+                ></path>
+              </svg>
+            }
+          />
         </div>
       </form>
 
