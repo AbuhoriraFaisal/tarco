@@ -192,9 +192,9 @@ const home = () => {
           <div className="flex items-center justify-between p-4 bg-white rounded-md dark:bg-darker">
             <div>
               <h6 className="text-xs font-medium leading-none tracking-wider text-gray-500 uppercase dark:text-primary-light">
-                Value
+                Flights
               </h6>
-              <span className="text-xl font-semibold">$30,000</span>
+              <span className="text-xl font-semibold">10</span>
               <span className="inline-block px-2 py-px ml-2 text-xs text-green-500 bg-green-100 rounded-md">
                 +4.4%
               </span>
@@ -223,9 +223,9 @@ const home = () => {
           <div className="flex items-center justify-between p-4 bg-white rounded-md dark:bg-darker">
             <div>
               <h6 className="text-xs font-medium leading-none tracking-wider text-gray-500 uppercase dark:text-primary-light">
-                Users
+                Crew Members
               </h6>
-              <span className="text-xl font-semibold">50,021</span>
+              <span className="text-xl font-semibold">56/20</span>
               <span className="inline-block px-2 py-px ml-2 text-xs text-green-500 bg-green-100 rounded-md">
                 +2.6%
               </span>
@@ -254,9 +254,9 @@ const home = () => {
           <div className="flex items-center justify-between p-4 bg-white rounded-md dark:bg-darker">
             <div>
               <h6 className="text-xs font-medium leading-none tracking-wider text-gray-500 uppercase dark:text-primary-light">
-                Orders
+                ON Air Flight/Memeber
               </h6>
-              <span className="text-xl font-semibold">45,021</span>
+              <span className="text-xl font-semibold">2/12</span>
               <span className="inline-block px-2 py-px ml-2 text-xs text-green-500 bg-green-100 rounded-md">
                 +3.1%
               </span>
@@ -285,9 +285,9 @@ const home = () => {
           <div className="flex items-center justify-between p-4 bg-white rounded-md dark:bg-darker">
             <div>
               <h6 className="text-xs font-medium leading-none tracking-wider text-gray-500 uppercase dark:text-primary-light">
-                Tickets
+                All Flights
               </h6>
-              <span className="text-xl font-semibold">20,516</span>
+              <span className="text-xl font-semibold">229</span>
               <span className="inline-block px-2 py-px ml-2 text-xs text-green-500 bg-green-100 rounded-md">
                 +3.1%
               </span>
