@@ -323,7 +323,7 @@ const home = () => {
             {/* <!-- Card header --> */}
             <div className="flex items-center justify-between p-4 border-b dark:border-primary">
               <h4 className="text-lg font-semibold text-gray-500 dark:text-light">
-                Bar Chart
+                Flights Chart
               </h4>
               {/* <div className="flex items-center space-x-2">
               <span className="text-sm text-gray-500 dark:text-light">
@@ -357,7 +357,7 @@ const home = () => {
             {/* <!-- Card header --> */}
             <div className="flex items-center justify-between p-4 border-b dark:border-primary">
               <h4 className="text-lg font-semibold text-gray-500 dark:text-light">
-                Doughnut Chart
+                Members Chart
               </h4>
               {/* <div className="flex items-center">
               <button
@@ -388,7 +388,7 @@ const home = () => {
             {/* <!-- Card header --> */}
             <div className="p-4 border-b dark:border-primary">
               <h4 className="text-lg font-semibold text-gray-500 dark:text-light">
-                Active users right now
+                Active Filghts right now
               </h4>
             </div>
             <p className="p-4">
@@ -399,7 +399,7 @@ const home = () => {
                 {userCount}
               </span>
               <span className="text-sm font-medium text-gray-500 dark:text-primary">
-                Users
+                Flights
               </span>
             </p>
             {/* <!-- Chart --> */}
@@ -417,7 +417,7 @@ const home = () => {
             {/* <!-- Card header --> */}
             <div className="flex items-center justify-between p-4 border-b dark:border-primary">
               <h4 className="text-lg font-semibold text-gray-500 dark:text-light">
-                Line Chart
+                Flights Distnation Chart
               </h4>
               {/* <div className="flex items-center">
               <button
